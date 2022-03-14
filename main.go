@@ -20,6 +20,7 @@ func main() {
 	})
 
 	port := flag.Int64("port", 27015, "The port to host the http server on")
+	flag.Parse()
 
 	log.Printf("Listening for HTTP health checks on port %d", *port)
 
