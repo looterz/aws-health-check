@@ -10,7 +10,7 @@ import (
 func main() {
 	log.Println("Starting aws-health-check")
 
-	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
 		_, err := fmt.Fprintf(w, "healthy\n")
 		if err != nil {
 			log.Printf("failed to write response: %v", err)
