@@ -1,6 +1,6 @@
 # aws-health-check
 
-A very simple HTTP server used for health checks from AWS Global Accelerator.
+A very simple HTTP server used for health checks from AWS Global Accelerator. This is used to check the "health" of any UDP listener, since the accelerator doesn't support UDP health checks.
 
 # usage
 
