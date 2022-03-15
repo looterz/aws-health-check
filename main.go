@@ -13,7 +13,7 @@ func main() {
 	http.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
 		_, err := fmt.Fprintf(w, "healthy\n")
 		if err != nil {
-			log.Printf("failed to write response: %v", err)
+			log.Println(err)
 			return
 		}
 		log.Printf("successfully responded to health check from %s", r.RemoteAddr)
@@ -29,6 +29,4 @@ func main() {
 		log.Fatal(err)
 		return
 	}
-
-	log.Printf("Health check server started on port %d", *port)
 }
