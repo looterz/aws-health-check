@@ -2,7 +2,7 @@
 
 # aws-health-check
 
-A very simple HTTP server used for health checks from AWS Global Accelerator. This is used to check the "health" of any UDP listener, since the accelerator doesn't support UDP health checks.
+A very simple HTTP server for replying to health checks from AWS Global Accelerator, Application Load Balancer or Network Load Balancer services. This is typically used to check the "health" of any UDP listener, since the services don't support UDP health checks, although it could be used to respond to any health checks in general.
 
 # usage
 
