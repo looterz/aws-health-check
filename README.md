@@ -6,5 +6,5 @@ A very simple HTTP server used for health checks from AWS Global Accelerator. Th
 
 # usage
 
-1) Specify the endpoint parameters for the server using the `-port` , `-address` and `path` flags.
+1) Specify the endpoint parameters for the server using the `-address`, `-port`,  and `-path` flags.
 2) Point the global accelerator health check endpoint group to the server's configured endpoint.
