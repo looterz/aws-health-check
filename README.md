@@ -1,4 +1,4 @@
-[![Release](https://github.com/looterz/aws-health-check/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/looterz/aws-health-check/actions/workflows/release.yml)
+[![Release](https://github.com/looterz/aws-health-check/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/looterz/aws-health-check/releases)
 
 # aws-health-check
 
